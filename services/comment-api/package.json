@@ -1,0 +1,20 @@
+{
+  "name": "@buzzin/comment-api",
+  "version": "0.0.1",
+  "description": "Comments API for the Buzzing App",
+  "author": "LiveGood",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiveGood/buzzin-comments-api.git",
+    "directory": "services/comment-api"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "pnpm test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*"
+  }
+}

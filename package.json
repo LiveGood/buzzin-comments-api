@@ -1,0 +1,29 @@
+{
+  "name": "@buzzin/monorepo",
+  "version": "0.0.1",
+  "description": "Comments API for the Buzzing App",
+  "author": "LiveGood",
+  "main": "src/index.ts",
+  "scripts": {
+    "i": "pnpm install",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "test": "pnpm test",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md,html,yaml}\" --config ./.prettierrc",
+    "format-check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,scss,md,html,yaml}\" --config ./.prettierrc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiveGood/buzzin-comments-api.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "esbuild": "^0.18.11",
+    "eslint-config-custom": "workspace:*",
+    "lint-staged": "^13.2.3",
+    "turbo": "^1.10.7",
+    "typescript": "^5.1.6"
+  }
+}

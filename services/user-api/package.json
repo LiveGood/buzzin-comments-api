@@ -1,0 +1,16 @@
+{
+  "name": "@buzzin/user-api",
+  "version": "0.0.1",
+  "description": "Users API for the Buzzing App",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "pnpm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiveGood/buzzin-comments-api.git",
+    "directory": "services/user-api"
+  },
+  "author": "LiveGood"
+}

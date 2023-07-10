@@ -1,0 +1,15 @@
+{
+  "name": "@buzzin/infrastructure",
+  "version": "0.0.1",
+  "description": "CDK infrastructure for the Buzzing App",
+  "author": "LiveGood",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "pnpm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiveGood/buzzin-comments-api.git"
+  },
+}

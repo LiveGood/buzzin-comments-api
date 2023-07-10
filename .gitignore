@@ -1,0 +1,14 @@
+.vscode/
+.idea/
+node_modules/
+.turbo/
+
+# packages
+node_modules/
+
+# .env files
+packages/**/.env*
+ui/**/.env*
+infrastructure/.env
+
+*.sh

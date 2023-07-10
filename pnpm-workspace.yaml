@@ -1,0 +1,6 @@
+packages:
+  - 'services/*' # Backend APIs and services
+  - 'ui/*' # front end sites and micro frontends
+  - 'common/*' # packages shared between front and back end
+  - 'plugins/*' # Functional modules
+  - 'infrastructure' # AWS infrastructure with CDK IaC
